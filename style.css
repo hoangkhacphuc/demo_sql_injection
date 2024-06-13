@@ -1,0 +1,212 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f5f5f5;
+  font-size: 20px;
+}
+
+.text-purple {
+  color: #7a6ce4;
+}
+
+.text-pink {
+  color: #f02069;
+}
+
+.text-blue {
+  color: #238ef9;
+}
+
+.text-orange {
+  color: #f5a623;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container > .login-form {
+  width: 70%;
+  height: 80vh;
+  background-color: #fff;
+  display: flex;
+  flex-flow: row nowrap;
+}
+.container > .login-form > .block {
+  width: 50%;
+  height: 100%;
+  position: relative;
+}
+.container > .login-form > .block > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  text-align: center;
+}
+.container > .login-form > .block > .content {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  color: #fff;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.container > .login-form > .block > .content > span {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+.container > .login-form > .block > .content > h1 {
+  font-size: 2.7rem;
+  margin-bottom: 1rem;
+}
+.container > .login-form > .block > .content > .line {
+  width: 50px;
+  height: 8px;
+  border-radius: 50px;
+  background-color: #fff;
+  margin-bottom: 1rem;
+}
+.container > .login-form > .block > .content > ul {
+  list-style: none;
+}
+.container > .login-form > .block > .content > ul > li {
+  text-align: center;
+  font-size: 1rem;
+  padding: 5px 0;
+}
+.container > .login-form > .block > form {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.container > .login-form > .block > form > h2 {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+  color: #238ef9;
+}
+.container > .login-form > .block > form > input {
+  width: 80%;
+  padding: 10px 15px;
+  border: 1px solid #eee;
+  border-left: 5px solid #238ef9;
+  font-size: 1rem;
+  outline: none;
+}
+.container > .login-form > .block > form > a {
+  font-size: 0.9rem;
+  color: #238ef9;
+  text-decoration: none;
+}
+.container > .login-form > .block > form > a:hover {
+  text-decoration: underline;
+}
+.container > .login-form > .block > form > button {
+  width: 80%;
+  padding: 10px 15px;
+  border: none;
+  background-color: #238ef9;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.container > .login-form > .block > form > button:hover {
+  background-color: #0f5f9b;
+}
+.container > .login-form > .block > .register > h2 {
+  color: #7a6ce4;
+}
+.container > .login-form > .block > .register > input {
+  border-left: 5px solid #7a6ce4;
+}
+.container > .login-form > .block > .register > button {
+  background-color: #7a6ce4;
+}
+.container > .login-form > .block > .register > button:hover {
+  background-color: #5b4aa4;
+}
+.container > .login-form > .block > .register > a {
+  color: #7a6ce4;
+}
+.container > .search {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  background-color: #fff;
+  padding: 40px 80px;
+}
+.container > .search > form {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 15px;
+}
+.container > .search > form > input {
+  width: 300px;
+  padding: 10px 15px;
+  border: 1px solid #eee;
+  border-left: 5px solid #238ef9;
+  font-size: 1rem;
+  outline: none;
+}
+.container > .search > form > button {
+  padding: 10px 15px;
+  border: none;
+  background-color: #238ef9;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.container > .search > form > button:hover {
+  background-color: #0f5f9b;
+}
+.container > .search > .list-product {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.container > .search > .list-product > .item {
+  border: 1px solid #444;
+  padding: 20px;
+  border-radius: 3px;
+}
+.container > .search > .information {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  gap: 10px;
+}
+.container > .search > .information > h1 {
+  font-size: 1.5rem;
+  text-align: center;
+}
+.container > .search > .information > a {
+  font-size: 0.9rem;
+  color: #238ef9;
+  text-decoration: none;
+  text-align: center;
+}
+.container > .search > .information > a:hover {
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=style.css.map */

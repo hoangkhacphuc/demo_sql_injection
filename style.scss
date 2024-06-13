@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f5f5;
+    font-size: 20px;
+}
+
+.text-purple {
+    color: #7a6ce4;
+}
+
+.text-pink {
+    color: #f02069;
+}
+
+.text-blue {
+    color: #238ef9;
+}
+
+.text-orange {
+    color: #f5a623;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    > .login-form {
+        width: 70%;
+        height: 80vh;
+        background-color: #fff;
+        display: flex;
+        flex-flow: row nowrap;
+        > .block {
+            width: 50%;
+            height: 100%;
+            position: relative;
+            > img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                text-align: center;
+            }
+            > .content {
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                color: #fff;
+                display: flex;
+                flex-flow: column nowrap;
+                justify-content: center;
+                align-items: center;
+                > span {
+                    font-size: 1.4rem;
+                    margin-bottom: 1rem;
+                }
+                > h1 {
+                    font-size: 2.7rem;
+                    margin-bottom: 1rem;
+                }
+                > .line {
+                    width: 50px;
+                    height: 8px;
+                    border-radius: 50px;
+                    background-color: #fff;
+                    margin-bottom: 1rem;
+                }
+                > ul {
+                    list-style: none;
+                    > li {
+                        text-align: center;
+                        font-size: 1rem;
+                        padding: 5px 0;
+                    }
+                }
+            }
+            > form {
+                width: 100%;
+                height: 100%;
+                display: flex;
+                flex-flow: column nowrap;
+                justify-content: center;
+                align-items: center;
+                gap: 10px;
+                > h2 {
+                    font-size: 3rem;
+                    margin-bottom: 1.5rem;
+                    color: #238ef9;
+                }
+                > input {
+                    width: 80%;
+                    padding: 10px 15px;
+                    border: 1px solid #eee;
+                    border-left: 5px solid #238ef9;
+                    font-size: 1rem;
+                    outline: none;
+                }
+                > a {
+                    font-size: 0.9rem;
+                    color: #238ef9;
+                    text-decoration: none;
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+                > button {
+                    width: 80%;
+                    padding: 10px 15px;
+                    border: none;
+                    background-color: #238ef9;
+                    color: #fff;
+                    font-size: 1rem;
+                    cursor: pointer;
+                    &:hover {
+                        background-color: #0f5f9b;
+                    }
+                }
+            }
+            > .register {
+                > h2 {
+                    color: #7a6ce4;
+                }
+                > input {
+                    border-left: 5px solid #7a6ce4;
+                }
+                > button {
+                    background-color: #7a6ce4;
+                    &:hover {
+                        background-color: #5b4aa4;
+                    }
+                }
+                > a {
+                    color: #7a6ce4;
+                }
+            }
+        }
+    }
+    > .search {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        background-color: #fff;
+        padding: 40px 80px;
+        > form {
+            display: flex;
+            flex-flow: row nowrap;
+            gap: 15px;
+            > input {
+                width: 300px;
+                padding: 10px 15px;
+                border: 1px solid #eee;
+                border-left: 5px solid #238ef9;
+                font-size: 1rem;
+                outline: none;
+            }
+
+            > button {
+                padding: 10px 15px;
+                border: none;
+                background-color: #238ef9;
+                color: #fff;
+                font-size: 1rem;
+                cursor: pointer;
+                &:hover {
+                    background-color: #0f5f9b;
+                }
+            }
+        }
+        > .list-product {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            > .item {
+                border: 1px solid #444;
+                padding: 20px;
+                border-radius: 3px;
+            }
+        }
+        > .information {
+            display: flex;
+            flex-flow: column nowrap;
+            align-items: center;
+            gap: 10px;
+            > h1 {
+                font-size: 1.5rem;
+                text-align: center;
+            }
+            > a {
+                font-size: 0.9rem;
+                color: #238ef9;
+                text-decoration: none;
+                text-align: center;
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
+
